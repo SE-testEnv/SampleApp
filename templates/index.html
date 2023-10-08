@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee Directory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Search Employee Emails</h1>
+    <form action="/search" method="post">
+        <input type="text" name="query" placeholder="Enter First and Last Name">
+        <input type="submit" value="Search Email">
+    </form>
+    <hr>
+    
+</body>
+</html>
